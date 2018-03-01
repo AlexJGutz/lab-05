@@ -1,4 +1,4 @@
-﻿/* W3.CSS 4.04 Apr 2017 by Jan Egil and Borge Refsnes */
+/* W3.CSS 4.04 Apr 2017 by Jan Egil and Borge Refsnes */
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
@@ -145,6 +145,10 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-transparent,.w3-hover-none:hover{background-color:transparent!important}
 .w3-hover-none:hover{box-shadow:none!important}
 /* Colors */
+.w3-aquamarine,.w3-hover-aquamarine:hover{color:#000!important;background-color:#02C8A7!important}
+.w3-golden,.w3-hover-golden:hover{color:#fff!important;background-color:#F9BE02!important}
+.w3-sky,.w3-hover-sky:hover{color:#000!important;background-color:#7CDBD5!important}
+.w3-bright-coral,.w3-hover-bright-coral:hover{color:#000!important;background-color:#f53240!important}
 .w3-amber,.w3-hover-amber:hover{color:#000!important;background-color:#ffc107!important}
 .w3-aqua,.w3-hover-aqua:hover{color:#000!important;background-color:#00ffff!important}
 .w3-blue,.w3-hover-blue:hover{color:#fff!important;background-color:#2196F3!important}
@@ -201,6 +205,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-text-teal{color:#009688!important}
 .w3-text-light-grey,.w3-hover-text-light-grey:hover,.w3-text-light-gray,.w3-hover-text-light-gray:hover{color:#f1f1f1!important}
 .w3-text-dark-grey,.w3-hover-text-dark-grey:hover,.w3-text-dark-gray,.w3-hover-text-dark-gray:hover{color:#3a3a3a!important}
+.w3-border-bright-coral,.w3-hover-border-bright-coral:hover{border-color:#F53240!important}
 .w3-border-red,.w3-hover-border-red:hover{border-color:#f44336!important}
 .w3-border-green,.w3-hover-border-green:hover{border-color:#4CAF50!important}
 .w3-border-blue,.w3-hover-border-blue:hover{border-color:#2196F3!important}

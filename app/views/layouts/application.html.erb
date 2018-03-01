@@ -11,21 +11,21 @@
 
   </head>
 
-  <body class="w3-container">
+  <body class="w3-container w3">
 
-    <div class="w3-bar w3-light-grey">
-      <a href="/" class="w3-bar-item w3-button"><%= image_tag 'mad-icon.png', alt: 'The Mad Icon', height: '28', width: '28', style: 'display: block; margin-left: auto; margin-right: auto; margin-bottom: none; margin-top: none' %></a>
-      <a href="/static_pages/home" class="w3-bar-item w3-button">Home</a>
-      <a href="/" class="w3-bar-item w3-button">Root</button>
-      <a href="/static_pages/help" class="w3-bar-item w3-button">Help</a>
-      <a href="/static_pages/about" class="w3-bar-item w3-button">About</a>
+    <div class="w3-bar w3-bright-coral">
+      <a href="/" class="w3-bar-item w3-button w3-round w3-hover-golden"><%= image_tag 'mad-icon.png', alt: 'The Mad Icon', height: '28', width: '28', style: 'display: block; margin-left: auto; margin-right: auto; margin-bottom: none; margin-top: none' %></a>
+      <a href="/static_pages/home" class="w3-bar-item w3-button w3-round w3-hover-golden w3-text-white">Home</a>
+      <a href="/" class="w3-bar-item w3-button w3-round w3-hover-golden w3-text-white">Root</a>
+      <a href="/static_pages/help" class="w3-bar-item w3-button w3-round w3-hover-golden w3-text-white">Help</a>
+      <a href="/static_pages/about" class="w3-bar-item w3-button w3-round w3-hover-golden w3-text-white">About</a>
     </div>
 
-   <div class="w3-container">
+   <div class="w3-container w3-text-dark-grey ">
     <%= yield %>
    </div>
     
-    <footer class="w3-container w3-sand">
+    <footer class="w3-container w3-golden w3-text-dark-grey">
       <h5> Footer </h5>
       <p>
        insert footer content here
